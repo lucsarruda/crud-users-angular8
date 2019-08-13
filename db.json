@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "lucsarruda",
+      "nome_user": "Lucas Altair Cordova Arruda",
+      "email_user": "lucasarruda3@hotmail.com",
+      "password_user": "ASDADASD",
+      "idade_user": "25"
+    },
+    {
+      "id": "mariazinha",
+      "nome_user": "Mariazinha da Silva",
+      "email_user": "maria.silva@teste.com",
+      "password_user": "5454",
+      "idade_user": "55"
+    },
+    {
+      "id": "joaopedro",
+      "nome_user": "João Pedro ",
+      "email_user": "jpedro@pedro.com.br",
+      "password_user": "123",
+      "idade_user": "25"
+    }
+  ]
+}

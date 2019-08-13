@@ -1,0 +1,24 @@
+<div class="example-loading-shade" *ngIf="isLoadingResults">
+    <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+</div>
+<div>
+    <h3>Adicionar Novo Usuário</h3>
+</div>
+<form class="example-container" [formGroup]="userForm" (ngSubmit)="addUser(userForm.value)">
+    <mat-form-field>
+        <input matInput name="id" placeholder="Login" formControlName="id">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput name="nome_user" placeholder="Nome do Usuário" formControlName="nome_user">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput name="email_user" placeholder="E-mail do Usuário" formControlName="email_user">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput name="password_user" placeholder="Senha" formControlName="password_user" [type]="hide ? 'password' : 'text'">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput name="idade_user" placeholder="Idade do Usuário" formControlName="idade_user">
+    </mat-form-field>
+    <button type="submit" [disabled]="!userForm.valid" mat-button color="primary">Adicionar</button>
+</form>
