@@ -1,10 +1,19 @@
-# CrudUsersOperand
+# Crud Listagem de Usuários 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+### Utilizado : 
+- Versão 8.2.1. - Angular-cli. 
+- JSON Server Fake Rest API - Para utlização de API Fake (https://www.npmjs.com/package/json-server)
+- Material Angular IO - https://material.angular.io/
 
-## Development server
+### Video DEMO : 
+https://drive.google.com/file/d/1SrZkqXd2LvmsbkdWBG8MUCPClu1I47g_/view
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Rodar Localmente 
+
+- Baixar as dependências - ```npm install``` ou ```npm i```
+- Run `ng serve`
+- Run `json-server --watch db.json` - para subir serviço do JSON Server Fake Rest API
+- `http://localhost:4200/`
 
 ## Code scaffolding
 
